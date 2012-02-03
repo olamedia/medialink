@@ -7,32 +7,9 @@
 /**
  * Description of mediaLink
  *
- * @author Администратор
+ * @author olamedia
  */
-class mediaLink extends model{
-	protected $_properties = array(
-		'id' => array(
-			'class' => 'idProperty',
-			'field' => 'id',
-			'primaryKey' => true,
-			'autoIncrement' => true,
-		),
-		'url' => array(
-			'class' => 'stringProperty',
-			'field' => 'url',
-			'unique' => true,
-		),
-		'title' => array(
-			'class' => 'stringProperty',
-			'field' => 'title',
-		),
-		'description' => array(
-			'class' => 'stringProperty',
-			'field' => 'description',
-		),
-	);
-	protected $_actAs = array('timestampable');
-	//protected $_url = '';
+class mediaLink{
 	protected $_driver = null;
 	public function __construct($url){
 		//$this->_url = $url;
