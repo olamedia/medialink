@@ -7,7 +7,7 @@
 /**
  * Description of youtubeMediaDriver
  *
- * @author Администратор
+ * @author olamedia
  */
 class dailymotionMediaLinkDriver extends mediaLinkDriver{
 	public function load(){
